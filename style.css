@@ -1,0 +1,115 @@
+* {margin: 0; padding: 0;
+background-color: gray;
+}
+#curPlyr {
+    color: aliceblue;
+    text-shadow: #FC0 1px 0 10px;
+    
+
+}
+/* .ten{
+    text-shadow: #FC0 1px 0 10px;
+    color: aliceblue; */
+/* } */
+
+.content {
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    font-family: sans-serif;
+}
+
+#area {
+    width: 156px;
+    background-color: #F1F1F1;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    font-size: 0;
+    color:rgb(248, 246, 246);
+    text-shadow: #FC0 1px 0 10px
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid #000;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.cell:hover {
+    background-color: #5f796e;
+}
+.wer{
+    bottom: 10px;
+    
+}
+
+.currentPlayer {
+    
+    font-size: 30px;
+    
+    
+   text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    height: 20px;
+    /* width: 200px; */
+    bottom: 100px;
+    
+}
+
+
+.stat {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+
+}
+.sino2{
+   text-align: center;
+
+}
+  
+.sino {
+    text-align: center;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    color: rgb(32, 24, 24);
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    padding: 0.75rem 1.5rem;
+    transition: 0.5s;
+    
+  
+
+
+}
+.sino:hover{
+    color: rgb(182, 49, 49);
+    letter-spacing: 10px;
+    text-shadow: rgb(182, 49, 49) 1px 0 10px;
+}
+.sino:active{
+    color: black;
+    letter-spacing: 0px;
+}
